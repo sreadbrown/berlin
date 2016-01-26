@@ -1,0 +1,38 @@
+img {
+  /*max-width: 600px;*/
+  /*max-height: 500px;*/
+}
+
+.bs-docs-header {
+  background-color: #ff0000;
+}
+.container {
+  background-color: #ffff80;
+}
+
+.jumbotron {
+  background-image: url(../images/airplane.jpg);
+  background-size:cover;
+  height: 50%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px
+}
+
+.photo1 {
+  width: 100%;
+}
+
+.stein {
+  width: 50%
+}
+
+.img-circle {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
