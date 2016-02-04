@@ -1,6 +1,12 @@
 $(function() {
   $(".clickable").click(function() {
-    $("#Steinshow").toggle();
-    $("#Steinhide").toggle();
+    $("#Steinshow").slideToggle();
+    $("#Steinhide").slideToggle();
+  });
+});
+
+$(function() {
+  $(".clickable2").click(function() {
+    $("#faded").fadeOut();
   });
 });

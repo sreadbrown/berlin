@@ -42,12 +42,21 @@ img {
   color: blue;
 }
 
+.clickable2 {
+  cursor: pointer;
+  color: blue;
+}
 
 #Steinshow {
   display: none;
 }
-
+/*#Steinhide {
+  display: none;
+}*/
 
 .clickable:hover {
+  text-decoration: underline;
+}
+.clickable2:hover {
   text-decoration: underline;
 }
