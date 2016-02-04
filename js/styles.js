@@ -8,5 +8,6 @@ $(function() {
 $(function() {
   $(".clickable2").click(function() {
     $("#faded").fadeOut();
+    $("#notThere").fadeIn();
   });
 });

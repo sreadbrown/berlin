@@ -60,3 +60,7 @@ img {
 .clickable2:hover {
   text-decoration: underline;
 }
+
+#notThere img {
+  display: none;
+}
